@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, NewWordActivity.class);
-            startActivityForResult(intent, NEW_WORD_ACTIVITY_REQUEST_CODE);
+            mStartForResult.launch(intent);
         });
 
         Button button = (Button) findViewById(R.id.delete);
