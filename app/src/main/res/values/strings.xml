@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WordsMVVMLiveData</string>
+    <string name="add_word">Add Word</string>
+    <string name="delete_all">Delete All</string>
+    <string name="word_hint">Word...</string>
+    <string name="save_word">Save</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="empty_not_saved">Word was not saved</string>
 </resources>
